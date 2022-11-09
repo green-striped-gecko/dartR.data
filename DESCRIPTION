@@ -9,7 +9,7 @@ Authors@R: c(
             person("Oliver", "Berry", email="oliver.berry@csiro.au", role="ctb" )
             )
 Description: Splitting the raw data for dartR into this package, dartR.data, keeps dartR's installed package size below the size threshold.
-Depends: R (>= 3.5), dartR, adegenet (>= 2.0.0)
+Depends: R (>= 3.5), adegenet (>= 2.0.0)
 License: GPL (>= 3)
 LazyData: true 
 Encoding: UTF-8

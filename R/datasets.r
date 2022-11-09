@@ -8,7 +8,6 @@
 #' @author Luis Mijangos (bugs? Post to 
 #' \url{https://groups.google.com/d/forum/dartr}
 #' @keywords datasets
-#' @import dartR
 #' @import adegenet
 "platypus.gl"
 
