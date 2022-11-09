@@ -8,6 +8,8 @@
 #' @author Luis Mijangos (bugs? Post to 
 #' \url{https://groups.google.com/d/forum/dartr}
 #' @keywords datasets
+#' @import dartR
+#' @import adegenet
 "platypus.gl"
 
 #' A simulated genlight object created to run a landscape genetic example
@@ -102,16 +104,4 @@ NULL
 #' @author Bernd Gruber (bugs? Post to 
 #' \url{https://groups.google.com/d/forum/dartr}
 #' @keywords datasets
-#' @examples
-#' \donttest{
-#' library(PopGenReport)
-#' read.csv( paste(.libPaths()[1],'/dartR/extdata/platy.csv',sep='' ))
-#' platy <- read.genetable( paste(.libPaths()[1],'/dartR/extdata/platy.csv',
-#' sep='' ), ind=1, pop=2, lat=3, long=4, other.min=5, other.max=6, 
-#' oneColPerAll=FALSE, sep='/')
-#' platy.gl <- gi2gl(platy, parallel=FALSE)
-#' df.loc <- data.frame(RepAvg = runif(nLoc(platy.gl)), CallRate = 1)
-#' platy.gl@other$loc.metrics <- df.loc
-#' gl.report.reproducibility(platy.gl)
-#' }
 NULL
