@@ -1,6 +1,6 @@
 Package: dartR.data
-Title: Auxiliary Data Package For Our Main Package dartR
-Version: 1.0
+Title: Auxiliary Data Package For Our Main Package 'dartR'
+Version: 1.0.1
 Authors@R: c(
             person("Bernd", "Gruber", email="bernd.gruber@canberra.edu.au", role=c("aut","cre")), 
             person("Arthur", "Georges", email="georges@aerg.edu.au", role="aut"),
@@ -8,7 +8,7 @@ Authors@R: c(
             person("Carlo", "Pacioni",email="carlo.pacioni@delwp.vic.gov.au",role="aut"),
             person("Oliver", "Berry", email="oliver.berry@csiro.au", role="ctb" )
             )
-Description: Splitting the raw data for dartR into this package, dartR.data, keeps dartR's installed package size below the size threshold.
+Description: Data package for 'dartR'. Provides data sets to run examples in 'dartR'. This was necessary due to the size limit imposed by 'CRAN'. The data in 'dartR.data' is needed to run the examples provided in the 'dartR' functions. All available data sets are either based on actual data (but reduced in size) and/or simulated data sets to allow the fast execution of examples and demonstration of the functions. 
 Depends: R (>= 3.5), adegenet (>= 2.0.0)
 License: GPL (>= 3)
 LazyData: true 
