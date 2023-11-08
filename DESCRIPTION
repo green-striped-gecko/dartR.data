@@ -9,7 +9,12 @@ Authors@R: c(
             person("Carlo", "Pacioni",email="carlo.pacioni@delwp.vic.gov.au",role="aut"),
             person("Oliver", "Berry", email="oliver.berry@csiro.au", role="ctb" )
             )
-Description: Data package for 'dartR'. Provides data sets to run examples in 'dartR'. This was necessary due to the size limit imposed by 'CRAN'. The data in 'dartR.data' is needed to run the examples provided in the 'dartR' functions. All available data sets are either based on actual data (but reduced in size) and/or simulated data sets to allow the fast execution of examples and demonstration of the functions. 
+Description: Data package for 'dartR'. Provides data sets to run examples in 'dartR'. 
+     This was necessary due to the size limit imposed by 'CRAN'. The data in 'dartR.data'
+     is needed to run the examples provided in the 'dartR' functions. 
+     All available data sets are either based on actual data (but reduced in size) 
+     and/or simulated data sets to allow the fast execution of examples and demonstration 
+     of the functions. 
 Depends: R (>= 3.5), adegenet (>= 2.0.0)
 Imports: methods, utils, crayon
 License: GPL (>= 3)
