@@ -134,7 +134,7 @@ NULL
 #' @references Robledo-Ruiz et al. (2023) Easy-to-use R functions to separate 
 #' reduced-representation genomic datasets into sex-linked and autosomal loci, 
 #' and conduct sex assignment. \emph{Mol. Ecol. Res}.
-#' \url{https://doi.org/10.1111/1755-0998.13844}
+#' \doi{10.1111/1755-0998.13844}
 "LBP"
 
 #' Yellow-tufted honeyeater (YTH) DArT data in a genlight object
@@ -154,7 +154,7 @@ NULL
 #' @references Robledo-Ruiz et al. (2023) Easy-to-use R functions to separate 
 #' reduced-representation genomic datasets into sex-linked and autosomal loci, 
 #' and conduct sex assignment. \emph{Mol. Ecol. Res.}
-#' (\url{https://doi.org/10.1111/1755-0998.13844})
+#' (\doi{10.1111/1755-0998.13844})
 "YTH"
 
 #' Eastern yellow robin (EYR) DArT data in a genlight object
@@ -174,7 +174,7 @@ NULL
 #' @references Robledo-Ruiz et al. (2023) Easy-to-use R functions to separate 
 #' reduced-representation genomic datasets into sex-linked and autosomal loci, 
 #' and conduct sex assignment. \emph{Mol. Ecol. Res.}
-#' (\url{https://doi.org/10.1111/1755-0998.13844})
+#' (\doi{10.1111/1755-0998.13844})
 #' @import adegenet
 "EYR"
 NULL

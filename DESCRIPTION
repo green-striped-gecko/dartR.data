@@ -1,6 +1,6 @@
 Package: dartR.data
 Title: Auxiliary Data Package for Our Main Package 'dartR'
-Version: 1.0.5
+Version: 1.0.8
 Date: 2024-05-24
 Authors@R: c(
             person("Bernd", "Gruber", email="bernd.gruber@canberra.edu.au", role=c("aut","cre")), 
