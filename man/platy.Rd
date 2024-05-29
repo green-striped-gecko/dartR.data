@@ -21,7 +21,7 @@ platy.gl <- gi2gl(platy, parallel=FALSE)
 df.loc <- data.frame(RepAvg = runif(nLoc(platy.gl)), CallRate = 1)
 platy.gl@other$loc.metrics <- df.loc
 gl.report.reproducibility(platy.gl)
-}
+} 
 }
 \author{
 Bernd Gruber (bugs? Post to
