@@ -11,7 +11,7 @@
 #' @import adegenet
 "platypus.gl"
 
-#' A simulated genlight object created to run a landscape genetic example
+#' A simulated dartR object created to run a landscape genetic example
 #'
 #'This a test data set to run a landscape genetics example. It contains 10 
 #'populations of 30 individuals each and each individual has 300 loci. There 
@@ -24,7 +24,7 @@
 #' @keywords datasets
 "possums.gl"
 
-#' A genlight object created via the read.dart functions
+#' A dartR object created via the read.dart functions
 #'
 #'This a test data set to test the validity of functions within dartR and is 
 #'based on a DArT SNP data set of simulated bandicoots across Australia. It 
@@ -177,4 +177,34 @@ NULL
 #' (\doi{10.1111/1755-0998.13844})
 #' @import adegenet
 "EYR"
+
+
+#' A simulated dartR object created to run a landscape genetic example
+#'
+#'This a test data set to run a landscape genetics example. It contains 10 
+#'populations of 30 individuals each and each individual has 300 loci. There 
+#'are no covariates for individuals or loci. this version has a fbm matrix
+#' @name possums.glfbm
+#' @format dartR object with fbm matrix
+#' @docType data
+#' @author Bernd Gruber (bugs? Post to
+#'  \url{https://groups.google.com/d/forum/dartr}
+#' @keywords datasets
+"possums.glfbm"
+
+
+#' A dartR object created via the read.dart functions
+#'
+#'This a test data set to test the validity of functions within dartR and is 
+#'based on a DArT SNP data set of simulated bandicoots across Australia. It 
+#'contains 96 individuals and 1000 SNPs. this version has a fbm matrix
+#' @name bandicoot.glfbm
+#' @format dartRt object
+#' @docType data
+#' @author Bernd Gruber (bugs? Post to
+#'  \url{https://groups.google.com/d/forum/dartr}
+#' @keywords datasets
+"bandicoot.glfbm"
+
+
 NULL
