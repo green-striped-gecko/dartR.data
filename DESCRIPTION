@@ -1,6 +1,6 @@
 Package: dartR.data
 Title: Auxiliary Data Package for Our Main Package 'dartR'
-Version: 1.1.2
+Version: 1.2.2
 Date: 2026-02-17
 Revision: Elastic Elapid
 Authors@R: c(
