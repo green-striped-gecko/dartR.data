@@ -16,8 +16,8 @@ Description: Data package for 'dartR'. Provides data sets to run examples in 'da
      All available data sets are either based on actual data (but reduced in size) 
      and/or simulated data sets to allow the fast execution of examples and demonstration 
      of the functions. 
-Depends: R (>= 3.5), adegenet (>= 2.0.0)
-Imports: methods, utils, crayon
+Depends: R (>= 3.5)
+Imports: methods, utils, crayon, adegenet (>= 2.0.0)
 License: GPL (>= 3)
 LazyData: true 
 LazyDataCompression: xz

@@ -175,6 +175,5 @@ NULL
 #' reduced-representation genomic datasets into sex-linked and autosomal loci, 
 #' and conduct sex assignment. \emph{Mol. Ecol. Res.}
 #' (\doi{10.1111/1755-0998.13844})
-#' @import adegenet
 "EYR"
 
