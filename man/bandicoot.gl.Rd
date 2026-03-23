@@ -3,7 +3,7 @@
 \docType{data}
 \name{bandicoot.gl}
 \alias{bandicoot.gl}
-\title{A genlight object created via the read.dart functions}
+\title{A dartR object created via the read.dart functions}
 \format{
 genlight object
 }

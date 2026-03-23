@@ -3,7 +3,7 @@
 \docType{data}
 \name{possums.gl}
 \alias{possums.gl}
-\title{A simulated genlight object created to run a landscape genetic example}
+\title{A simulated dartR object created to run a landscape genetic example}
 \format{
 genlight object
 }

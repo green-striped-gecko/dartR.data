@@ -7,6 +7,7 @@
 zzz <- NULL
 important <- crayon::blue
 .onAttach <- function(...) {
+  
   pn <- getPackageName()
 packageStartupMessage(important(
     paste(
@@ -16,3 +17,4 @@ packageStartupMessage(important(
     )
 ))
 }
+
