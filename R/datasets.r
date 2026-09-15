@@ -61,6 +61,49 @@
 #' @keywords datasets
 "testset.gs"
 
+#' A genlight object with a known-pedigree captive population, for kinship analyses
+#'
+#' An augmented companion to testset.gl. 274 individuals, 755 loci in 31
+#' populations. Extends testset.gl with a captive-bred population
+#' (EmmacCaptBred, n = 24) with known pedigree structure - parent-offspring,
+#' full-sib, half-sib and first-cousin pairs bred from six wild-caught
+#' founders drawn from six different populations - for testing kinship-based
+#' analyses. Pedigree truth (sire, dam, cohort) and COLONY-style
+#' offspring/mother/father flags are recorded in ind.metrics. 500 of the
+#' loci are simulated (CloneID prefix SIM) with intermediate allele
+#' frequencies and Balding-Nichols population structure so that kinship
+#' classes are statistically recoverable; the original 255 DArT loci and
+#' 250 wild individuals are unchanged from testset.gl.
+#' @name testset2.gl
+#' @format genlight object
+#' @docType data
+#' @author Custodian: Arthur Georges (bugs? Post to
+#'  \url{https://groups.google.com/d/forum/dartr}
+#' @keywords datasets
+"testset2.gl"
+
+#' A genlight object (SilicoDArT) with a known-pedigree captive population
+#'
+#' An augmented companion to testset.gs. 242 individuals, 755 loci in 30
+#' populations. Companion to testset2.gl: includes the same captive-bred
+#' population (EmmacCaptBred, n = 24, same individual ids and pedigree -
+#' parent-offspring, full-sib, half-sib and first-cousin pairs) with
+#' pedigree truth (sire, dam, cohort) and COLONY-style
+#' offspring/mother/father flags in ind.metrics; founders re-selected
+#' where the testset2.gl founders are absent from this dataset (same
+#' one-founder-per-population design). 500 of the loci are simulated
+#' presence/absence markers (CloneID prefix SIM) with Balding-Nichols
+#' population structure; offspring bands follow Mendelian inheritance of
+#' latent presence alleles. The original 255 SilicoDArT loci and 218 wild
+#' individuals are unchanged from testset.gs.
+#' @name testset2.gs
+#' @format genlight object
+#' @docType data
+#' @author Custodian: Arthur Georges (bugs? Post to
+#' \url{https://groups.google.com/d/forum/dartr}
+#' @keywords datasets
+"testset2.gs"
+
 #' Testfile in DArT format (as provided by DArT)
 #'
 #' This test data set is provided to show a typical DArT file format. Can be 
