@@ -1,7 +1,7 @@
 Package: dartR.data
 Title: Auxiliary Data Package for Our Main Package 'dartR'
-Version: 1.2.5
-Date: 2026-02-17
+Version: 1.2.6
+Date: 2026-09-24
 Revision: Elastic Elapid
 Authors@R: c(
             person("Bernd", "Gruber", email="bernd.gruber@canberra.edu.au", role=c("aut","cre")), 
